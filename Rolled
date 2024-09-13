@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rickroll</title>
+    <style>
+body {
+  background: #000;
+  color: #fff;
+  padding: 405px;
+  font-family: sans-serif;
+}
+
+        /* Set the background image for the body */
+        body {
+            background-image: url('https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?cs=srgb&dl=pexels-minan1398-813269.jpg&fm=jpg'); /* URL of the background image */
+            background-size: cover; /* Makes the image cover the entire page */
+            background-position: center; /* Centers the image */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the header */
+        header {
+            text-align: center; /* Centers the text horizontally */
+            padding: 50px ; /* Adds padding to give space around the text */
+            color: SpringGreen; /* Set the text color to spring green */
+            font-family: Brush Script MT;
+            font-size: 30px;
+        }
+
+        /* Style for the first image (Rickroll image) */
+        .rickroll-img {
+            position: absolute;
+            top: 200px; /* Distance from the top */
+            left: 220px; /* Distance from the left */
+            width: 500px; /* Set a width for the image */
+        }
+
+        /* Style for the second image (Mr. 305 image) */
+        .mr305-img {
+            position: absolute;
+            top: 600px; /* Distance from the top */
+            left: 410px; /* Distance from the left */
+            width: 100px; /* Set a width for the image */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <h1><strong>Welcome to My Website</strong></h1>
+    </header>
+
+    <!-- Rickroll Image as a Button -->
+    <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0&ab_channel=cotter548" target="_blank">
+        <img class="rickroll-img" src="https://i.ytimg.com/vi/BlFR8MZB84E/hqdefault.jpg" alt="RICK ROLLED">
+    </a>
+
+    <!-- Mr. 305 Image as a Button -->
+    <a href="https://www.mr305.com/wp-content/uploads/2020/08/thumbnail-social.jpg" target="_blank">
+        <img class="mr305-img" src="https://www.shutterstock.com/shutterstock/videos/1057577230/thumb/1.jpg?ip=x480" alt="305">
+    </a> 
+
+</body>
+</html>
